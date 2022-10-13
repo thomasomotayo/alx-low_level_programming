@@ -3,7 +3,7 @@
 /**
  *main-program entry point.
  *
- *piece of art is useful
+ *Return: 1 on success.
  */
 int main(void)
 {
