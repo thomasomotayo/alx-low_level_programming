@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int n;
+i	int n;
 
 	for (n = 48; n < 58; ++n)
 	{
@@ -18,5 +18,3 @@ int main(void)
 	putchar(10);
 	return (0);
 }
-Footer
-
