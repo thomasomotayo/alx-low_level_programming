@@ -1,7 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-
-/**
+/*
  * main - print _putchar
  * is written by bwave
  * Return: 0
@@ -9,10 +7,21 @@
 
 int main(void)
 {
-	char str[20] = "_putchar";
-	for(in i =0; i < strlen(str); i++){
-		putchar(str[1]);
-		putchar('\n');
-	}
-	return 0;
+_putchar('_');
+
+_putchar('p');
+
+_putchar('u');
+
+_putcahr('t');
+
+_putchar('c');
+
+_putchar('h');
+
+_putchar('a');
+
+_putchar('r');
+
+return 0;
 }
