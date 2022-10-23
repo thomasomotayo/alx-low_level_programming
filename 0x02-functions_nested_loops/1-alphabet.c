@@ -1,36 +1,17 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-
- * main - Entry point
-
+ * Description: print_alphabet prints the alpha in lowercase
  *
-
  * Return: Always 0 (Success)
-
  */
 
-int main(void)
-
+void print_alphabet(void)
 {
-
-	char *sh = "Holberton";
-
-
-
-	while (*sh)
-
-	{
-
-		_putchar(*sh);
-
-		sh++;
-
-	}
+	char la;
+	for (la = 'a'; la <= 'z'; la++)
+		_putchar(la);
 
 	_putchar('\n');
-
-
-
-	return (0);
+}
 

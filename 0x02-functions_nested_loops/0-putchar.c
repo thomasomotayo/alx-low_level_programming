@@ -1,7 +1,10 @@
 #include "main.h"
 
 /*
- * main - prints _putchar and a new line
+ * main - Entry point
+ *
+ * Description: prints putchar and a new line
+ *
  * Return: Always 0
  */
 
