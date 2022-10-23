@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int num, mult, prod;
+	int n, num, mult, prod;
 
 	if (n >= 0 && n <= 15)
 	{
