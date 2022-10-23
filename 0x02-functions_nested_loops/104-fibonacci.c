@@ -1,6 +1,6 @@
 /*
  * File: 104-fibonacci.c
- * Auth: Brennan D Baraban
+ * Auth: Thomas Omotayo
  */
 
 
@@ -15,9 +15,7 @@
  * Return: Always 0.
  */
 int main(void)
-
 {
-
 	int count;
 
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -29,7 +27,6 @@ int main(void)
 
 
 	for (count = 0; count < 92; count++)
-
 	{
 
 		sum = fib1 + fib2;
@@ -57,7 +54,6 @@ int main(void)
 
 
 	for (count = 93; count < 99; count++)
-
 	{
 
 		half1 = fib1_half1 + fib2_half1;
@@ -65,13 +61,11 @@ int main(void)
 		half2 = fib1_half2 + fib2_half2;
 
 		if (fib1_half2 + fib2_half2 > 9999999999)
-
 		{
 
 			half1 += 1;
 
 			half2 %= 10000000000;
-
 		}
 
 
