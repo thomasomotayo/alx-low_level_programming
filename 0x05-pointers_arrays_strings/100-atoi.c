@@ -26,9 +26,11 @@ int _atoi(char *s)
 		sum += *s - '0';
 		s++;
 	}
+
 	if (signs == -1)
 		final = -sum;
 	else
 		final = sum;
+
 	return (final);
 }	
