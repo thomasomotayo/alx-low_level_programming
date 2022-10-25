@@ -31,5 +31,4 @@ int _atoi(char *s)
 	else
 		final = sum;
 	return (final);
-}
-	
+}	
