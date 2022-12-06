@@ -1,6 +1,8 @@
-#include "main.h"
+iinclude "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+
 /**
  * append_text_to_file - that appends text at the end of a file
  * @filename: variable pointer
